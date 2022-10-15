@@ -3,6 +3,10 @@ body{
     sans-serif;
 }
 
+p{
+    margin: 0%0;
+}
+
 /* main styles */
 
 .main{
@@ -18,7 +22,7 @@ body{
 
 .main-content-section{
     background-color: #FFFFFF;
-    padding: 100px 90px;
+    padding: 50px 90px;
 }
 
 /* about me section */
@@ -39,7 +43,7 @@ body{
 .about-me-name{
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 55px;
     color: #000000;
         margin: 0 0 25px 0;
@@ -52,6 +56,8 @@ font-style: normal;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
+
+    text-align: justify;
 }
 
 /* main-content-title */
@@ -59,6 +65,7 @@ font-style: normal;
 /* projects section */
 
 .projects {
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -105,11 +112,11 @@ font-style: normal;
 }
 
 /* work styles */
-.work{
-    /* padding: 100px 20px 50px 20px
+/* .work{
+    padding: 100px 20px 50px 20px
     padding: 50px
-    padding: 100px 50px */
-}
+    padding: 100px 50px
+} */
 
 .work-title {
     font-style: normal;
@@ -160,6 +167,14 @@ font-style: normal;
         line-height: 24px;
         color: #595959;
         width: 525px;
+}
+
+.work-duty__desc{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: bold;
+
+        margin: 10px 0 10px 0;
 }
 
 .work-company{
@@ -245,7 +260,7 @@ font-style: normal;
     color: #FFFFFF;
     font-style: normal;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 24px;
         margin-right: 10px;
 }
@@ -253,7 +268,7 @@ font-style: normal;
 .contact-link{
     font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 24px;
     color: #8E949C;
 }
