@@ -49,7 +49,7 @@ p {
 }
 
 .about-me-description {
-  width: 400px;
+  width: 500px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -86,9 +86,21 @@ p {
   font-weight: bold;
 }
 
+.my-projects-item + .my-projects-item {
+  margin-top: 10px;
+}
+
 .my-projects-link {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-projects-repoLink {
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
@@ -109,6 +121,22 @@ p {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
+}
+
+.my-projects-role {
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.icon-projects {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #fb6d3a;
 }
 
 /* work styles */
@@ -235,6 +263,7 @@ p {
 .photo {
   width: 370px;
   margin-bottom: 50px;
+  border-radius: 50%;
 }
 
 .contacts,
@@ -268,7 +297,7 @@ p {
 .contact-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 24px;
   color: #8e949c;
 }
@@ -281,7 +310,7 @@ p {
 
   stroke-width: 0;
   stroke: currentColor;
-  fill: rgb(255, 28, 28);
+  fill: #fb6d3a;
 }
 
 .tech-skills-list {
